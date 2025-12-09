@@ -9,7 +9,6 @@ This project demonstrates core concepts like HTTP requests, HTML parsing, link e
 
 - Recursively crawls links starting from a seed URL
 - Limits crawling to the same domain (avoids crawling the entire internet)
-- Respects `robots.txt` (using `urllib.robotparser`)
 - Configurable crawl depth
 - Politeness delay (rate limiting) between requests
 - Avoids crawling the same page twice (visited set)
